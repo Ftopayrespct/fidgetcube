@@ -34,7 +34,7 @@
         . . . . . 
         . . . . . 
         # . . . .
-        `</field></block></next></block></next></block></statement></block><block type="device_button_event" id="[~?%yYUt9?f=Wy`|1~SZ" x="266" y="275"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="basic_show_icon" id="G%ki(cq^wP8rnsd^XVv;"><field name="i">IconNames.Happy</field></block></statement></block><block type="device_gesture_event" id="uOQ~n,:SB6kIu{Ism_s^" x="589" y="345"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="device_while" id="2M~kjXtC?i3Wg4Kh_xXD"><value name="COND"><shadow type="logic_boolean" id="@nqp|,`xp{nUE-G7^:2`"><field name="BOOL">TRUE</field></shadow></value><statement name="DO"><block type="device_show_leds" id="p=|D0s,2$vnjAJ,f2E8N"><field name="LEDS">`
+        `</field></block></next></block></next></block></statement></block><block type="device_button_event" id="[~?%yYUt9?f=Wy`|1~SZ" x="266" y="275"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="basic_show_icon" id="G%ki(cq^wP8rnsd^XVv;"><field name="i">IconNames.Happy</field></block></statement></block><block type="device_gesture_event" id="uOQ~n,:SB6kIu{Ism_s^" x="589" y="345"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="device_show_leds" id="p=|D0s,2$vnjAJ,f2E8N"><field name="LEDS">`
         . . . . . 
         . . . . . 
         . . . . . 
@@ -76,7 +76,7 @@
         . . . . . 
         . # . . . 
         . . . . .
-        `</field></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block></statement></block><block type="device_button_event" id="7R56avB=;k[Km8w%)MsW" x="350" y="427"><field name="NAME">Button.AB</field><statement name="HANDLER"><block type="device_show_leds" id="Nk=$/NP$lwkjtK|N2_ql"><field name="LEDS">`
+        `</field></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type="device_button_event" id="7R56avB=;k[Km8w%)MsW" x="350" y="427"><field name="NAME">Button.AB</field><statement name="HANDLER"><block type="device_show_leds" id="Nk=$/NP$lwkjtK|N2_ql"><field name="LEDS">`
         . # # # . 
         . # . # . 
         . . # # . 
