@@ -43,55 +43,57 @@ input.onButtonPressed(Button.B, function () {
         `)
 })
 input.onGesture(Gesture.Shake, function () {
-    basic.showLeds(`
-        . . . . .
-        . . . . .
-        . . . . .
-        . . . . .
-        . . # . .
-        `)
-    basic.showLeds(`
-        . . . # .
-        . . . . .
-        . . . . .
-        . . . . .
-        . . . . .
-        `)
-    basic.showLeds(`
-        . . . . .
-        . . . . .
-        . . . . .
-        . . . . .
-        . . . . #
-        `)
-    basic.showLeds(`
-        . . # . .
-        . . . . .
-        . . . . .
-        . . . . .
-        . . . . .
-        `)
-    basic.showLeds(`
-        . . . . .
-        . . . . .
-        # . . . .
-        . . . . .
-        . . . . .
-        `)
-    basic.showLeds(`
-        . . . . .
-        . . . . .
-        . # . . .
-        . . . . .
-        . . . . .
-        `)
-    basic.showLeds(`
-        . . . . .
-        . . . . .
-        . . . . .
-        . # . . .
-        . . . . .
-        `)
+    while (true) {
+        basic.showLeds(`
+            . . . . .
+            . . . . .
+            . . . . .
+            . . . . .
+            . . # . .
+            `)
+        basic.showLeds(`
+            . . . # .
+            . . . . .
+            . . . . .
+            . . . . .
+            . . . . .
+            `)
+        basic.showLeds(`
+            . . . . .
+            . . . . .
+            . . . . .
+            . . . . .
+            . . . . #
+            `)
+        basic.showLeds(`
+            . . # . .
+            . . . . .
+            . . . . .
+            . . . . .
+            . . . . .
+            `)
+        basic.showLeds(`
+            . . . . .
+            . . . . .
+            # . . . .
+            . . . . .
+            . . . . .
+            `)
+        basic.showLeds(`
+            . . . . .
+            . . . . .
+            . # . . .
+            . . . . .
+            . . . . .
+            `)
+        basic.showLeds(`
+            . . . . .
+            . . . . .
+            . . . . .
+            . # . . .
+            . . . . .
+            `)
+    }
 })
 input.onGesture(Gesture.TiltRight, function () {
     basic.showLeds(`
@@ -114,6 +116,15 @@ input.onGesture(Gesture.TiltRight, function () {
         . . . . .
         . . . . .
         . . . . #
+        `)
+})
+input.onLogoEvent(TouchButtonEvent.Pressed, function () {
+    basic.showLeds(`
+        . . . . .
+        . . . . .
+        . . . . .
+        . . . . .
+        . . # . .
         `)
 })
 basic.showLeds(`
